@@ -34,7 +34,9 @@ void main(List<String> args) {
   maaslar.remove(20000);
   maaslar.removeAt(1);
   maaslar[0] = 100000;
-  maaslar.forEach((i) => print(i));
+  for (var i in maaslar) {
+    print(i);
+  }
 
   //Ödev3
   var ikiKatlari = [2, 4, 6, 8, 10];
