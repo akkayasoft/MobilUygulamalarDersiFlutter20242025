@@ -3,7 +3,7 @@ void main(List<String> args) {
     1: "Hidrojen",
     3: "Lityum",
   };
-  var baskentler = Map<String, String>();
+  var baskentler = <String, String>{};
   //var soyGazlar = Map<int, String>();
 
   elementler[4] = "berilyum";
